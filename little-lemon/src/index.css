@@ -6,8 +6,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Markazi;
+}
+input:focus:invalid{
+  border:  2px solid red;
+}
+select:invalid{
+  border: 2px solid red;
 }
